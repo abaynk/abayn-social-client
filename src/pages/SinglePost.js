@@ -45,7 +45,7 @@ function SinglePost(props) {
             <Grid>
                 <Grid.Row>
                     <Grid.Column width={2}>
-                        <Image src='https://react.semantic-ui.com/images/avatar/large/molly.png' size='small' float='right' />
+                        <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' size='small' float='right' />
                     </Grid.Column>
                     <Grid.Column width={10}>
                         <Card fluid>
@@ -79,7 +79,7 @@ function SinglePost(props) {
                                     <Form>
                                         <div className='ui action input fluid'>
                                             <input type='text' placeholder='comment...' name='comment' value={comment} onChange={(e)=>setComment(e.target.value)} ref={commentInputRef} />
-                                            <button type='submit' className='ui button teal' disabled={comment.trim() === ''} onClick={submitComment}>
+                                            <button type='submit' className='ui button instagram' disabled={comment.trim() === ''} onClick={submitComment}>
                                                 Submit
                                             </button>
                                         </div>

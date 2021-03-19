@@ -42,7 +42,7 @@ function PostForm() {
                         value={values.body}
                         error={error ? true : false}
                     />
-                    <Button type='submit' color='teal'>
+                    <Button type='submit' color='instagram'>
                         Submit
                     </Button>
                 </Form.Field>
